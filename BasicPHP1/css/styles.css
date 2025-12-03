@@ -6,7 +6,10 @@ html, body {
 
 body {
   font-family: "Raleway", sans-serif;
-  background: linear-gradient(135deg, #f5e6d3 0%, #e8d4b8 50%, #d4b896 100%);
+  background: url("../img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #4A2511;
   margin: 0px;
   min-height: 100vh;
@@ -17,8 +20,8 @@ h1 {
   font-family: "Playfair Display", serif;
   padding: 10px 20px 12px 20px;
   margin: 0px;
-  color: #8B4513;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(104, 55, 0, 0.5);
 }
 
 h2 {
@@ -96,7 +99,17 @@ nav {
   color: #FFD700 !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   margin-right: 2rem;
+  background: none !important;
+  padding: 0 !important;
 }
+
+.logo-img {
+  height: 135px;
+  width: auto;
+  display: block;
+}
+
+
 
 nav a {
   text-transform: uppercase;
@@ -260,9 +273,9 @@ nav a.active {
 }
 
 .alert-info {
-  background: #D1ECF1;
-  border: 2px solid #17A2B8;
-  color: #0C5460;
+  background: #FFF3CD;
+  border: 2px solid #FFC107;
+  color: #856404;
 }
 
 .mt-2 {
